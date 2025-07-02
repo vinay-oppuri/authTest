@@ -39,7 +39,7 @@ const Navbar = () => {
           <Link href='#'>Contact</Link>
         </div>
 
-        <div className="flex items-center gap-2 md:mr-10">
+        <div className="flex items-center gap-2">
           {session ? (
             <ProfilePopover />
           ) : (
