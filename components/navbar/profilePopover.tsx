@@ -33,7 +33,7 @@ export default function ProfilePopover() {
       <PopoverContent
         onMouseEnter={() => setOpen(true)}
         onMouseLeave={() => setOpen(false)}
-        className="w-50 border border-white/20 dark:border-zinc-800/30 bg-white/10 dark:bg-zinc-900/40 backdrop-blur-md shadow-xl rounded-xl p-4"
+        className="w-50 border bg-secondary shadow-xl rounded-xl p-4"
       >
         <div className="space-y-3">
           <div className="flex flex-col items-center gap-2">

@@ -58,7 +58,7 @@ export default function SignUpPage() {
       transition={{ duration: 0.5 }}
       className="w-[95%] flex items-center justify-center px-4 mt-32 md:mt-38 mx-auto"
     >
-      <div className="w-full max-w-md backdrop-blur-md bg-muted/40 border border-border p-6 sm:p-8 rounded-xl shadow-xl space-y-6">
+      <div className="w-full max-w-md bg-secondary border border-border p-6 sm:p-8 rounded-xl shadow-xl space-y-6">
         <h1 className="text-3xl font-bold text-center">Sign Up</h1>
 
         <form onSubmit={onSignUp} className="space-y-4">
