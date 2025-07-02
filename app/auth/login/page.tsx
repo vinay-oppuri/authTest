@@ -105,7 +105,7 @@ export default function LoginPage() {
         <div className="flex items-center justify-center mt-6 gap-3 flex-wrap">
           <button
             onClick={() => signIn('google', { callbackUrl: '/auth/profile' })}
-            className="hover:scale-105 transition p-2 rounded-lg bg-muted/60"
+            className="hover:scale-105 transition p-2 rounded-lg dark:bg-muted/60 bg-background"
           >
             <img
               src="https://ucarecdn.com/8f25a2ba-bdcf-4ff1-b596-088f330416ef/"
@@ -116,7 +116,7 @@ export default function LoginPage() {
 
           <button
             onClick={() => signIn('github', { callbackUrl: '/auth/profile' })}
-            className="hover:scale-105 transition p-2 rounded-lg bg-muted/60"
+            className="hover:scale-105 transition p-2 rounded-lg dark:bg-muted/60 bg-background"
           >
             <img
               src="https://ucarecdn.com/be5b0ffd-85e8-4639-83a6-5162dfa15a16/"
