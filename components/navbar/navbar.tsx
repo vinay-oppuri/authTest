@@ -19,7 +19,7 @@ const Navbar = () => {
   return (
     <>
       {/* Top Navbar */}
-      <nav className='bg-background text-foreground fixed top-0 left-0 right-0 flex items-center justify-between p-5 z-50 shadow-sm border-b border-border'>
+      <nav className='bg-background text-foreground fixed top-0 left-0 right-0 flex items-center justify-between p-5 z-50 border'>
         <Link href='/' className='text-lg font-semibold' onClick={() => setIsOpen(false)}>
           <Image
             className="w-30 sm:w-40 md:w-44 lg:w-48 dark:invert"
